@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Banner -->
+    <header>
+        <h1>🍦 Sweet Scoop Ice Cream</h1>
+        <p>Choose your flavor • Add your toppings • Enjoy!</p>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Ice Cream Menu Section -->
+        <section class="menu-section">
+            <h2>Ice Cream Menu</h2>
+
+            <div class="menu-grid">
+
+                <div class="menu-card">
+                    <img src="vanilla.jpg" alt="Vanilla Ice Cream">
+                    <h3>Vanilla</h3>
+                    <p>Classic • Smooth • Sweet</p>
+                </div>
+
+                <div class="menu-card">
+                    <img src="strawberry.jpg" alt="Strawberry Ice Cream">
+                    <h3>Strawberry</h3>
+                    <p>Fresh • Fruity • Pink</p>
+                </div>
+
+                <div class="menu-card">
+                    <img src="chocolate.jpg" alt="Chocolate Ice Cream">
+                    <h3>Chocolate</h3>
+                    <p>Rich • Creamy • Delicious</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Order Form (Design Only) -->
+        <section class="order-section">
+            <h2>Place Your Order</h2>
+
+            <form>
+
+                <label>Choose Flavor:</label>
+                <select>
+                    <option>Vanilla</option>
+                    <option>Chocolate</option>
+                    <option>Strawberry</option>
+                </select>
+
+                <label>Choose Cone Type:</label>
+                <select>
+                    <option>Waffle Cone</option>
+                    <option>Sugar Cone</option>
+                    <option>Cup</option>
+                </select>
+
+                <label>Add Toppings:</label>
+                <div class="toppings">
+                    <input type="checkbox"> Sprinkles<br>
+                    <input type="checkbox"> Chocolate Chips<br>
+                    <input type="checkbox"> Marshmallows<br>
+                </div>
+
+                <label>Your Name:</label>
+                <input type="text" placeholder="Enter your name">
+
+                <label>Quantity:</label>
+                <input type="number" min="1" max="10" placeholder="1">
+
+                <button type="button">Submit Order</button>
+
+            </form>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2025 Sweet Scoop Ice Cream. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
